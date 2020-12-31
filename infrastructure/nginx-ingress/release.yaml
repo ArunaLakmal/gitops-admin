@@ -13,6 +13,7 @@ spec:
         namespace: nginx
       version: "3.10.0"
   interval: 5m
+  url: https://kubernetes.github.io/ingress-nginx
   install:
     remediation:
       retries: 3
