@@ -6,14 +6,13 @@ spec:
   releaseName: nginx-ingress-controller
   chart:
     spec:
-      chart: ingress-nginx/ingress-nginx
+      chart: ingress-nginx
       sourceRef:
         kind: HelmRepository
         name: ingress-nginx
         namespace: nginx
       version: "3.10.0"
   interval: 5m
-  url: https://kubernetes.github.io/ingress-nginx
   install:
     remediation:
       retries: 3
