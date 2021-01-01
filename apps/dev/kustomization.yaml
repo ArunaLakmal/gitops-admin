@@ -3,3 +3,4 @@ kind: Kustomization
 namespace: webapp
 resources:
   - ../podinfo
+  - ingress.yaml
