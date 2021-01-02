@@ -24,7 +24,9 @@ spec:
       hostPort:
         enabled: true
       kind: DaemonSet
-      annotations:
+      Annotations:
+        linkerd.io/inject: enabled
+      podAnnotations:
         linkerd.io/inject: enabled
       service:
         enabled: false
